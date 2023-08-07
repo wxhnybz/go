@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LaunchGo",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "host": "127.0.0.1",
+            "program": "${fileDirname}",
+            "env": {
+                "GOPATH": "C:/Users/wzy/go",
+                "GOROOT": "D:/Go"
+            },
+            "args": [],
+            //"showLog": true
+        }
+    ]
+}
